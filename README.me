@@ -1,0 +1,28 @@
+# jakub-product-frontend
+
+
+
+## Install
+
+Simply add the following line to your `composer.json` and run install/update:
+
+           require {
+                "jakubwladyslaw/product-frontend": "dev-master"
+           }
+          "repositories": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/jakubwladyslaw/product-frontend"
+            }
+          ],
+
+## Configuration
+
+You will need to add the service provider to your `config/app.php`:
+
+```php
+'providers' => array(
+  Jakub\ProductFrontend\ProductFrontendServiceProvider::class
+)
+
+```

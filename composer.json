@@ -1,0 +1,18 @@
+{
+  "name": "jakubwladyslaw/product-frontend",
+  "authors": [
+    {
+      "name": "Jakub Żurawa",
+      "email": "jakub.zurawa@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jakub\\ProductFrontend\\": "src/"
+    }
+  }
+}
