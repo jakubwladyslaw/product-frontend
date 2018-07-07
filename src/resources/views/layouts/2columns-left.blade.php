@@ -25,6 +25,7 @@
     <div class="row">
         <div class="col-md-12 messages">
             @if(Session::has('success'))
+
                 <div class="alert alert-success">
                     {{ Session::get('success')}}
                 </div>
@@ -38,7 +39,7 @@
     </div>
     <div class="row">
         <div class="col-md-3 sidebar">
-            @component('product-frontend::layouts/2columns-left/sidebar')
+            @component('product-frontend::layouts.2columns-left.sidebar')
             @endcomponent
         </div>
         <div class="col-md-9 content">
